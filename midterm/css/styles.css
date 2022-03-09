@@ -2,7 +2,7 @@ body {
     background-color: #aad4cf;
     font-family: Arial, Helvetica, sans-serif;   
 }
-
+/*sets values for all the content*/
 .wrapper {
     width:50%; margin:0 auto;
     background-color: rgba(255, 255, 255, 0.5);
@@ -11,6 +11,7 @@ body {
     
 }
 
+/*title style*/
 .sitetitle {
     color: white;
     font-size: larger;
@@ -25,6 +26,7 @@ body {
     padding-left: 25%;
 }
 
+/*navigation style*/
 nav {
     box-sizing: border-box;
     width: 100%;
@@ -44,6 +46,7 @@ nav li::before {
     box-sizing: border-box;
 }
 
+/*defines no decoration for links in nav*/
 a:link, a:visited {
     text-decoration: none;
     color:black
@@ -56,6 +59,7 @@ a:link, a:visited {
     overflow: auto;
 }
 
+/*image float*/
 .starfish {
     float: left;
     width: 30%;
@@ -67,6 +71,7 @@ a:link, a:visited {
     margin-right: 0%;
 }
 
+/*Form style*/
 .form {
     width: 98%;
     height: auto;
@@ -99,6 +104,7 @@ input[id=message] {
     margin-bottom: 1%;
 }
 
+/*Send button style*/
 .submit {
     background-color: transparent;
     border: 1px solid black;
