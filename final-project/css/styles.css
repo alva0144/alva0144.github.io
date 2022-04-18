@@ -1,3 +1,52 @@
 html {
     font-family:'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+* {
+    box-sizing: border-box;
+  }
+
+.wrapper{
+ width: 600px;
+ margin:auto;
+}
+
+.wrapper-bleed{
+    width: 600px;
+    margin:auto;
+}
+
+.logo{
+    background-color:#C78B07;
+    width: 580px;
+    margin: auto;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+header{
+    background-color: #222222;
+    width: 600px;
+    margin: auto;
+}
+
+nav{
+    text-align: center;
+}
+
+nav li{
+    margin: auto;
+    padding: 1rem;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #C78B07 ;
+}
+
+.banner{
+    background-image: url("../images/main-banner.jpg");
+}
