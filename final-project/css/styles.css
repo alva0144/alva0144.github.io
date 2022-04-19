@@ -75,11 +75,11 @@ nav li a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
-   z-index: -1;
+    z-index: -1;
 }
 
 .banner{
-    margin-top: 6rem;
+    margin-top: 4rem;
     background-color: #2229;
     float: left;
     z-index: 1;
@@ -88,6 +88,8 @@ nav li a:hover{
 
 .banner p{
     color: white;
+    line-height: 1.3;
+    padding-top: 1rem;
 }
 
 .connect{
@@ -126,6 +128,11 @@ nav li a:hover{
     line-height: 1.5;
 }
 
+.services{
+    width: 600px;
+    margin: auto;
+}
+
 .services h2{
     padding: 1rem;
 }
@@ -160,6 +167,120 @@ nav li a:hover{
 }
 
 .digital a:link, .digital a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+.marketing{
+    width: 600px;
+    margin:auto;
+    margin-top:1rem;
+    background-color: #ffe6ac;
+}
+
+.marketing img{
+    width: 100%;
+}
+
+.marketingtext{
+    padding: 1rem;
+}
+
+.marketingtext h3{
+    padding-bottom: 1rem;
+}
+
+.marketingtext p{
+    line-height: 1.5;
+}
+
+.marketingplans{
+    background-color: #222222;
+    color: white;
+    width: 175px;
+    margin-top: 1rem;
+    padding: 1rem;
+    color: white;  
+}
+
+.marketingplans a:link, .marketingplans a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+.video{
+    width: 600px;
+    margin:auto;
+    margin-top:1rem;
+    background-color: #ffe6ac;
+}
+
+.video img{
+    width:100%;
+}
+
+.videoprod{
+    padding: 1rem;
+}
+
+.videoprod h3{
+    padding-bottom: 1rem;
+}
+
+.videoprod p{
+    line-height: 1.5;
+}
+
+.videoplans{
+    background-color: #222222;
+    color: white;
+    width: 160px;
+    margin-top: 1rem;
+    padding: 1rem;
+    color: white;  
+}
+
+.videoplans a:link, .videoplans a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+/*Web Development section is fragmented in different classes to edit separately each one of the items inside*/
+
+.webdev{
+    width: 600px;
+    margin:auto;
+    margin-top:1rem;
+    background-color: #ffe6ac;
+}
+
+.webdev img{
+    width: 100%;
+}
+
+.webtext{
+    background-color: #ffe6ac;
+    padding: 1rem;
+}
+
+.webtext h3{
+    padding-bottom: 1rem;
+}
+
+.webtext p{
+    line-height: 1.5;
+}
+
+.webplans{
+    background-color: #222222;
+    color: white;
+    width: 150px;
+    margin-top: 1rem;
+    padding: 1rem;
+    color: white;    
+}
+
+.webplans a:link, .webplans a:visited{
     text-decoration: none;
     color: white;
 }
