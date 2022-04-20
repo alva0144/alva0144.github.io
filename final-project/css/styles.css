@@ -225,6 +225,7 @@ nav li a:hover{
 
 .videoprod h3{
     padding-bottom: 1rem;
+    
 }
 
 .videoprod p{
@@ -283,4 +284,158 @@ nav li a:hover{
 .webplans a:link, .webplans a:visited{
     text-decoration: none;
     color: white;
+}
+
+.print{
+    width: 600px;
+    margin:auto;
+    margin-top:1rem;
+    background-color: #ffe6ac; 
+}
+
+.print img{
+    width: 100%;
+}
+
+.printcontent{
+    background-color: #ffe6ac;
+    padding: 1rem;
+}
+
+.printcontent h3{
+    padding-bottom: 1rem;
+}
+
+.printcontent p{
+    line-height: 1.5;
+}
+
+.printplans{
+    background-color: #222222;
+    color: white;
+    width: 150px;
+    margin-top: 1rem;
+    padding: 1rem;
+    color: white;    
+}
+
+.printplans{
+    background-color: #222222;
+    color: white;
+    width: 140px;
+    margin-top: 1rem;
+    padding: 1rem;
+    color: white;  
+}
+
+.printplans a:link, .printplans a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+.vision{
+    background-image: url("../images/vision.jpg");
+    margin: auto;
+    margin-top: 1rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 630px;
+    height: 280px;
+}
+
+.vision h3{
+    color:white;
+    padding-top: 2rem;
+}
+
+.vision p{
+    padding-top: 2rem;
+    color:white;
+    line-height: 1.5;
+}
+
+.learn{
+    background-color: #2228;
+    border-style: solid;
+    border-color: #C78B07;
+    border-width: 1px;
+    color: white;
+    width: 140px;
+    margin-top: 1rem;
+    padding: 1.3rem;
+    color: white;  
+}
+
+.learn a:link, .learn a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+.john h2{
+    font-size: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.john{
+    width: 600px;
+    margin: auto;
+}
+
+.johninfo{
+    background-color: #ffe6ac;
+    padding: 1rem;
+    line-height: 1.5;
+}
+
+.johninfo h3{
+    font-size: 2rem;
+}
+
+.johninfo h4{
+    font-weight: bold;
+}
+
+.johninfo hr{
+    border-top: 2px solid #C78B07;
+}
+
+.bob{
+    width: 600px;
+    margin: auto;
+}
+
+.bobinfo{
+    background-color: #ffe6ac;
+    padding: 1rem;
+    line-height: 1.5;
+}
+
+.john h2{
+    font-size: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.john{
+    width: 600px;
+    margin: auto;
+}
+
+.bobinfo{
+    background-color: #ffe6ac;
+    padding: 1rem;
+    line-height: 1.5;
+}
+
+.bobinfo h3{
+    font-size: 2rem;
+}
+
+.bobinfo h4{
+    font-weight: bold;
+}
+
+.bobinfo hr{
+    border-top: 2px solid #C78B07;
 }
