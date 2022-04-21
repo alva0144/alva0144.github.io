@@ -157,11 +157,19 @@ nav li a:hover{
     width: 600px;
 }
 
-.digitaltransformation{
-    background-color: #ffe6ac;
+.digital{
     width: 600px;
-    margin: auto;
-    padding: 1rem;  
+    margin:auto;
+    margin-top:1rem;
+    background-color: #ffe6ac;
+}
+
+.digital img{
+    width: 100%;
+}
+
+.digitaltransformation{
+    padding: 1rem;
 }
 
 .digitaltransformation h3{
@@ -169,20 +177,19 @@ nav li a:hover{
 }
 
 .digitaltransformation p{
-    padding-bottom: 1rem;
     line-height: 1.5;
 }
 
-.digital{
+.digitalplans{
     background-color: #222222;
     color: white;
-    width: 140px;
+    width: 175px;
     margin-top: 1rem;
     padding: 1rem;
-    color: white;
+    color: white;  
 }
 
-.digital a:link, .digital a:visited{
+.digitalplans a:link, .digitalplans a:visited{
     text-decoration: none;
     color: white;
 }
@@ -355,8 +362,6 @@ nav li a:hover{
     margin-top: 1rem;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 630px;
-    height: 280px;
 }
 
 .vision h3{
@@ -643,7 +648,7 @@ footer a{
     }
 
     .services .video{
-        grid-area: video;
+        grid-area: videoprod;
     }
 
     .services .webdev{
@@ -652,5 +657,20 @@ footer a{
 
     .services .print{
         grid-area: print;
+    }
+    
+    .vision{
+        width: 100%;
+        margin:auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .ourteam{
+        display:flex;
+    }
+
+    .team .bob{
+        flex-direction: row-reverse;
     }
 }
