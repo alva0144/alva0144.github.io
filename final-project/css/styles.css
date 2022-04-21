@@ -67,6 +67,10 @@ nav li a:hover{
     color: #222222;
 }
 
+input[id=search] {
+    width: 100%;
+}
+
 .welcome{
     background-image: url("../images/main-banner.jpg");
     background-position: center;
@@ -372,7 +376,6 @@ nav li a:hover{
 }
 
 .john h2{
-    font-size: 3rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -403,6 +406,7 @@ nav li a:hover{
 .bob{
     width: 600px;
     margin: auto;
+    padding-top: 1rem;
 }
 
 .bobinfo{
@@ -438,4 +442,97 @@ nav li a:hover{
 
 .bobinfo hr{
     border-top: 2px solid #C78B07;
+}
+
+.form h2{
+    font-size: 3rem;
+    padding-top: 1rem;  
+    padding-bottom: 1rem;
+}
+
+.form h3{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.data{
+    width: 600px; 
+}
+
+input[id=fullname] {
+    width: 100%;
+    height: 20px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+input[id=email] {
+    width: 100%;
+    height: 20px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+input[id=message] {
+    width: 100%;
+    height: 60px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.submit{
+    background-color: #222222;
+    color: #C78B07;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.schedule h3{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+table{
+    border: 1px solid;
+    width: 100%;
+}
+
+td{
+    border: 1px solid;
+    padding: 1rem;
+}
+
+th{
+    border: 1px solid;
+    padding: 1rem;
+}
+
+tr:nth-child(1){
+    background-color: #ffe6ac;
+}
+
+.location h2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer{
+    background-color: #222;
+    color: #c78c06;
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+footer a{
+    color: #C78B07;
+}
+
+/*Desktop media queries*/
+
+@media screen (min-width:760px) and (max-width:1200){
+    
 }
