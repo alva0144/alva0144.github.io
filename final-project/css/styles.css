@@ -610,7 +610,7 @@ footer a{
     .services{
         display: grid;
         justify-content: space-around;
-        grid-template-columns: repeat (2 1fr);
+        grid-template-columns: repeat (6 1fr);
 
     }
 
