@@ -7,10 +7,12 @@ html {
     box-sizing: border-box;
   }
 
+  /*
   .clearfix::after {
     content: "";
     display: block;
     clear: both;
+    */
 }
 
 .wrapper{
@@ -74,8 +76,15 @@ nav li a:hover{
     color: #222222;
 }
 
-input[id=search] {
-    width: 100%;
+.searchbar input{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.searchbar i{
+    padding: 2px;
+    color:#C78B07;
+    border: #C78B07 1px solid;
 }
 
 .welcome{
@@ -133,10 +142,12 @@ input[id=search] {
     line-height: 1.5;
 }
 
+/*
 .services{
     width: 600px;
     margin: auto;
 }
+*/
 
 .services h2{
     padding: 1rem;
@@ -606,12 +617,40 @@ footer a{
     .aboutcontent{
         padding-left: 5%;
     }
-
+    
+    /*Creates a grid of 6 columns to fit the content of the services section*/
+    
     .services{
         display: grid;
-        justify-content: space-around;
-        grid-template-columns: repeat (6 1fr);
-
+        grid-gap: 0.5rem;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-areas:
+            "services services services services services services"
+            "digitalsection digitalsection digitalsection marketing marketing marketing"
+            "videoprod videoprod webdev webdev print print" 
     }
 
+    .services h2{
+        grid-area: services;
+    }
+
+    .services .digitalsection{
+        grid-area: digitalsection;
+    }
+
+    .services .marketing{
+        grid-area: marketing;
+    }
+
+    .services .video{
+        grid-area: video;
+    }
+
+    .services .webdev{
+        grid-area: webdev;
+    }
+
+    .services .print{
+        grid-area: print;
+    }
 }
